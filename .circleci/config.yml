@@ -26,10 +26,10 @@ jobs:
       BUNDLE_RETRY: "3"
       APP_DATABASE_HOST: "127.0.0.1"
       RAILS_ENV: test
-    working_directory: ~/rails-docker-kyt/src
+    working_directory: ~/rails-docker-aktt/src
     steps:
       - checkout:
-          path: ~/rails-docker-kyt
+          path: ~/rails-docker-aktt
       - ruby/install-deps
       - run:
           name: Database setup
