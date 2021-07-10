@@ -5,5 +5,3 @@ class UsersControllerTest < ActionDispatch::IntegrationTest
     assert true
   end
 end
-
-
